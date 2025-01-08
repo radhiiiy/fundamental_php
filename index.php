@@ -2,6 +2,6 @@
 
 
 echo "hello world!!!";
-echo "epep ganteng";
+echo "radiant ganteng banget";
 
 ?>
