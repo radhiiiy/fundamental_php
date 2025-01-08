@@ -8,7 +8,7 @@
 
 
 echo "hello world!!!";
-echo "radiant ganteng banget";
+echo "mobile legend";
 
 ?>
 </body>
