@@ -7,7 +7,7 @@
 <?php
 
 
-echo "hello world!!!";
+echo "ppp stay halal";
 echo "akun epep sekarang naik drastis apalagi log goggle";
 
 ?>
