@@ -6,9 +6,8 @@
 
 <?php
 
-
-echo "ppp stay halal";
-echo "akun epep sekarang naik drastis apalagi log goggle";
+echo "Belajar php<br>";
+echo "This fundamental php page<br>";
 
 ?>
 </body>
