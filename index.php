@@ -5,8 +5,8 @@
 <h1>My First PHP Page</h1>
 
 <?php
-$x = "masukkan nama";
-
+$x = "";
+echo "" . date ("l/d/m/Y") . "<br>";
 
 echo "Belajar php<br>";
 echo "This fundamental php page<br>";
