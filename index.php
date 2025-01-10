@@ -20,7 +20,7 @@ echo "<input value='" . trim($x) . "'>"
 
 
 
-?>
+?>  
 
 </body>
 </html>
