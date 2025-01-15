@@ -5,7 +5,7 @@
 <h1>My First PHP Page</h1>
 
 <?php
-$x = "";
+// $x = "";
 echo "" . date ("l/d/m/Y") . "<br>";
 
 echo "Fundamental php<br>";
@@ -15,7 +15,7 @@ echo "This fundamental php page<br>";
 
 <?php
 
-echo "<input value='" . trim($x) . "'>"
+// echo "<input value='" . trim($x) . "'>"
 
 
 
