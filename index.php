@@ -8,7 +8,7 @@
 $x = "";
 echo "" . date ("l/d/m/Y") . "<br>";
 
-echo "Belajar php<br>";
+echo "Fundamental php<br>";
 echo "This fundamental php page<br>";
 
 ?>
