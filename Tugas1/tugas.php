@@ -8,25 +8,27 @@
     <title>Document</title>
 </head>
 <body>
-    <H3>
+    <p>
       <?php 
 
 define(constant_name: "BONUS", value: 500000);
-define(constant_name: "PPN", value: 0.05);
-define(constant_name: "GAJI", value: 5000000);
+define(constant_name: "PPN", value: 0.12);
+
 
 $GajiBersih = 0;
-$TotalGaji = 0;
+$Gaji = 5000000;
 $JmlPryk = 1;
 
 
-echo "Gaji anda adalah : " . GAJI;
-
+echo "Gaji anda adalah : " . $Gaji . "<br>";
+ echo "Bonus Per Proyek ".BONUS."<br>";      
+echo "Gaji anda setelah terkena pajak " . $GajiBersih = $Gaji + (BONUS * $JmlPryk) . "<br>";
+echo "Gaji bersih anda adalah " . $GajiBersih 
 
 
 
 ?>
-    </H3>
+    <p/>
 </body>
 </html>
 
