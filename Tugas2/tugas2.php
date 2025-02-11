@@ -31,7 +31,7 @@
 </style>
 
 <body>
-    <form action="TugasHalaman2.php" method="post">
+    <form action="Tugas2Halaman2.php" method="post">
         <table border=1 style="border-collapse : collapse; width : 50%;">
             <tr>
                 <td>NISN</td>
@@ -58,13 +58,13 @@
                 <td>:</td>
                 <td>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="kelamin" id="" value="lakilaki">
+                        <input class="form-check-input" type="radio" name="kelamin" id="" value="LAKI-LAKI">
                         <label class="form-check-label" for="flexRadioDefault1">
                             LAKI-LAKI
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="kelamin" id="" value="perempuan">
+                        <input class="form-check-input" type="radio" name="kelamin" id="" value="PEREMPUAN">
                         <label class="form-check-label" for="flexRadioDefault1">
                             PEREMPUAN
                         </label>
@@ -76,12 +76,12 @@
                 <td>:</td>
                 <td>
                     <select name="agama" id="" class="form-select" aria-label="Default select example">
-                        <option value="islam">ISLAM</option>
-                        <option value="protestan">PROTESTAN</option>
-                        <option value="katolik">KATOLIK</option>
-                        <option value="hindu">HINDU</option>
-                        <option value="buddha">BUDDHA</option>
-                        <option value="konghucu">KONGHUCU</option>
+                        <option value="ISLAM">ISLAM</option>
+                        <option value="PROTESTAN">PROTESTAN</option>
+                        <option value="KATOLIK">KATOLIK</option>
+                        <option value="HINDU">HINDU</option>
+                        <option value="BUDDHA">BUDDHA</option>
+                        <option value="KONGHUCU">KONGHUCU</option>
                     </select>
                 </td>
             </tr>
@@ -106,16 +106,16 @@
                 <td>:</td>
                 <td>
                     <select name="jr1" id="" class="form-select" aria-label="Default select example">
-                        <option value="pplg">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
-                        <option value="akl">AKUTANSI DAN KEUANGAN LEMBAGA</option>
-                        <option value="mplb">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
-                        <option value="pm">PEMASARAN</option>
-                        <option value="tjkt">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</option>
-                        <option value="bp">BROADCASTING DAN PERFILMAN</option>
-                        <option value="dkv">DESAIN KOMUNIKASI VISUAL</option>
-                        <option value="sp">SENI PERTUNJUKAN</option>
-                        <option value="ph">PERHOTELAN</option>
-                        <option value="kl">KULINER</option>
+                        <option value="PENEGEMBANGAN PERANGKAT LUNAK DAN GAME">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
+                        <option value="AKUTANSI DAN KEUANGAN LEMBAGA">AKUTANSI DAN KEUANGAN LEMBAGA</option>
+                        <option value="MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
+                        <option value="PEMASARAN">PEMASARAN</option>
+                        <option value="TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</option>
+                        <option value="BROADCASTING DAN PERFILMAN">BROADCASTING DAN PERFILMAN</option>
+                        <option value="DESAIN KOMUNIKASI VISUAL">DESAIN KOMUNIKASI VISUAL</option>
+                        <option value="SENI PERTUNJUKAN">SENI PERTUNJUKAN</option>
+                        <option value="PERHOTELAN">PERHOTELAN</option>
+                        <option value="KULINER">KULINER</option>
                     </select>
                 </td>
             </tr>
@@ -124,16 +124,16 @@
                 <td>:</td>
                 <td>
                     <select name="jr2" id="" class="form-select" aria-label="Default select example">
-                        <option value="pplg">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
-                        <option value="akl">AKUTANSI DAN KEUANGAN LEMBAGA</option>
-                        <option value="mplb">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
-                        <option value="pm">PEMASARAN</option>
-                        <option value="tjkt">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</option>
-                        <option value="bp">BROADCASTING DAN PERFILMAN</option>
-                        <option value="dkv">DESAIN KOMUNIKASI VISUAL</option>
-                        <option value="sp">SENI PERTUNJUKAN</option>
-                        <option value="ph">PERHOTELAN</option>
-                        <option value="kl">KULINER</option>
+                        <option value="PENEGEMBANGAN PERANGKAT LUNAK DAN GAME">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
+                        <option value="AKUTANSI DAN KEUANGAN LEMBAGA">AKUTANSI DAN KEUANGAN LEMBAGA</option>
+                        <option value="MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
+                        <option value="PEMASARAN">PEMASARAN</option>
+                        <option value="TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</option>
+                        <option value="BROADCASTING DAN PERFILMAN">BROADCASTING DAN PERFILMAN</option>
+                        <option value="DESAIN KOMUNIKASI VISUAL">DESAIN KOMUNIKASI VISUAL</option>
+                        <option value="SENI PERTUNJUKAN">SENI PERTUNJUKAN</option>
+                        <option value="PERHOTELAN">PERHOTELAN</option>
+                        <option value="KULINER">KULINER</option>
                     </select>
                 </td>
             </tr>
@@ -142,55 +142,55 @@
                 <td>:</td>
                 <td>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="encasa" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="ENGLISH CLUB ESEMKASA" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             ENGLISH CLUB ESEMKASA
                         </label>
                     </div>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="pmr" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="PALANG MERAH REMAJA" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             PALANG MERAH REMAJA
                         </label>
                     </div>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="osis" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="ORGANISASI SISWA INTRA SEKOLAH" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             ORGANISASI SISWA INTRA SEKOLAH
                         </label>
                     </div>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="pa" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="PECINTA ALAM" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             PECINTA ALAM
                         </label>
                     </div>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="remas" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="REMAJA MASJID AL-KAUSAR" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             REMAJA MASJID AL-KAUSAR
                         </label>
                     </div>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="gds" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="GERAKAN DISIPLIN SISWA" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             GERAKAN DISIPLIN SISWA
                         </label>
                     </div>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="futsal" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="FUTSAL CLUB" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             FUTSAL CLUB
                         </label>
                     </div>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="volly" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value=" VOLLY CLUB" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             VOLLY CLUB
                         </label>
                     </div>
                     <div class="form-check">
-                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="basket" id="flexCheckDefault">
+                        <input name="ekstra[]" class="form-check-input" type="checkbox" value="BASKET CLUB" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             BASKET CLUB
                         </label>
